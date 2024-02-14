@@ -15,7 +15,7 @@ class TestController extends Controller
             'wallet_id'     => '943818',
         ]);
 
-        $responseObject = $mpesa->c2b('846445220', '100', 'TestPagamento');
+        $responseObject = $mpesa->c2b('841234567', '100', 'TestPagamento');
 
         dd('Teste de c2b', $responseObject);
 
